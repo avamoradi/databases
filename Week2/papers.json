@@ -1,0 +1,183 @@
+[
+  {
+  "paper_id" : "101",
+  "paper_title" : "SQL:From Traditional Databases to Big Data",
+  "conference" : "the 47th ACM Technical Symposium",
+  "publish_date": "2016-02-01"
+  },
+  {
+  "paper_id" : "102",
+  "paper_title" : "Distributed NoSQL Data Stores: Performance Analysis and a Case Study",
+  "conference" : "2018 IEEE International Conference on Big Data (Big Data)",
+  "publish_date": "2018-11-01"
+  },
+  {
+  "paper_id" : "103",
+  "paper_title" : "FIREBASE AND MYSQL PERFORMANCES FOR DATA EXCHANGING WITH CSV FILE IN PHP-BASED WEBSITE",
+  "conference" : "2nd International Conference on Innovative Studies of Contemporary Sciences ",
+  "publish_date": "2020-08-01"
+  },
+  {
+  "paper_id" : "104",
+  "paper_title" : "A Big Data Architecture for the Extraction and Analysis of EHR Data",
+  "conference" : "2019 IEEE World Congress on Services (SERVICES)",
+  "publish_date": "2019-07-01"
+  },
+  {
+  "paper_id" : "105",
+  "paper_title" : "SQL Education: A Systematic Mapping Study and Future Research Agenda",
+  "conference" : "ACM Transactions on Computing Education 20(3)",
+  "publish_date": "2020-05-01"
+  },
+  {
+  "paper_id" : "106",
+  "paper_title" : "Big data processing tools: An experimental performance evaluation",
+  "conference" : "Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery",
+  "publish_date": "2018-12-01"
+  },
+  {
+  "paper_id" : "107",
+  "paper_title" : "Performance Analysis of Financial Institution Operations in a NoSQL Columnar Database",
+  "conference" : "2020 15th Iberian Conference on Information Systems and Technologies (CISTI)",
+  "publish_date": "2020-06-01"
+  },
+  {
+  "paper_id" : "108",
+  "paper_title" : "Hadoop MapReduce's InputSplit based Indexing for Join Query Processing",
+  "conference" : "2019 9th IEEE International Conference on Control System",
+  "publish_date": "2019-11-01"
+  },
+  {
+  "paper_id" : "109",
+  "paper_title" : "Teaching Database Querying in the Cloud",
+  "conference" : "2019 IEEE Frontiers in Education Conference (FIE)",
+  "publish_date": "2019-10-01"
+  },
+  {
+  "paper_id" : "110",
+  "paper_title" : "Integrating Hands-on Components into Database Curriculum at Undergraduate and Graduate Levels",
+  "conference" : "2018 International Conference on Computational Science and Computational Intelligence (CSCI)",
+  "publish_date": "2018-12-01"
+  },
+  {
+  "paper_id" : "111",
+  "paper_title" : "Buffer Management in Relational Database Systems.",
+  "conference" : "ACM Transactions on Database Systems",
+  "publish_date": "2018-11-02"
+  },
+  {
+  "paper_id" : "112",
+  "paper_title" : "Experience with Active Learning and Formative Feedback for a SQL Unit",
+  "conference" : "2018 IEEE Frontiers in Education Conference (FIE)",
+  "publish_date": "2018-10-01"
+  },
+  {
+  "paper_id" : "113",
+  "paper_title" : "Errors and Complications in SQL Query Formulation",
+  "conference" : "ACM Transactions on Computing Education ",
+  "publish_date": "2018-08-01"
+  },
+  {
+  "paper_id" : "114",
+  "paper_title" : "On the Measurement and Analysis of Safety in a Large City",
+  "conference" : "2017 IEEE 15th Intl Conf on Dependable",
+  "publish_date": "2017-11-01"
+  },
+  {
+  "paper_id" : "115",
+  "paper_title" : "NoSQL2: SQL to NoSQL Databases",
+  "conference" : "Trends and Advances in Information Systems and Technologies",
+  "publish_date": "2018-03-01"
+  },
+  {
+  "paper_id" : "116",
+  "paper_title" : "Measurement and analysis of citizens requests to government for non-emergency services",
+  "conference" : "2017 Twelfth International Conference on Digital Information Management (ICDIM)",
+  "publish_date": "2017-09-01"
+  },
+  {
+  "paper_id" : "117",
+  "paper_title" : "Describing and Comparing Big Data Querying Tools",
+  "conference" : "World Conference on Information Systems and Technologies",
+  "publish_date": "2017-03-01"
+  },
+  {
+  "paper_id" : "118",
+  "paper_title" : "Macroanalysis in the Arts and Sciences",
+  "conference" : " New Directions for Computing Education",
+  "publish_date": "2017-04-01"
+  },
+  {
+  "paper_id" : "119",
+  "paper_title" : "Digital forensics and NoSQL databases",
+  "conference" : "2014 11th International Conference on Fuzzy Systems and Knowledge Discovery (FSKD)",
+  "publish_date": "2014-08-01"
+  },
+  {
+  "paper_id" : "120",
+  "paper_title" : "Analysis and Evaluation of the Riak Cluster Environment in Distributed Databases",
+  "conference" : "Computer Standards & Interfaces",
+  "publish_date": "2020-06-01"
+  },
+  {
+  "paper_id" : "121",
+  "paper_title" : "Evaluating Riak Key Value Cluster for Big Data",
+  "conference" : "Computer Standards & Interfaces",
+  "publish_date": "2020-02-01"
+  },
+  {
+  "paper_id" : "122",
+  "paper_title" : "mproving the Efficiency of Big Forensic Data Analysis Using NoSQL",
+  "conference" : "10th EAI International Conference on Mobile Multimedia Communications",
+  "publish_date": "2017-01-01"
+  },
+  {
+  "paper_id" : "123",
+  "paper_title" : "Ten years of critical review on database forensics research",
+  "conference" : "10th EAI International Conference on Mobile Multimedia Communications",
+  "publish_date": "2019-04-01"
+  },
+  {
+    "paper_id" : "124",
+    "paper_title" : "Cloud-Based NoSQL Data Migration",
+    "conference" : "2016 24th Euromicro International Conference on Parallel",
+    "publish_date": "2016-02-01"
+  },
+  {
+    "paper_id" : "125",
+    "paper_title" : "Review on Cloud Forensics: An Open Discussion on Challenges and Capabilities",
+    "conference" : "International Journal of Computer Applications",
+    "publish_date": "2016-07-01"
+  },
+  {
+    "paper_id" : "126",
+    "paper_title" : "MongoDB Indexing for Performance Improvement",
+    "conference" : "ICT Systems and Sustainability",
+    "publish_date": "2020-01-01"
+  },
+  {
+    "paper_id" : "127",
+    "paper_title" : "Review of NoSQL Data Stores: Using a reactive three-tier application for software developers ",
+    "conference" : "2019 Open innovations",
+    "publish_date": "2019-11-02"
+  },
+  {
+    "paper_id" : "128",
+    "paper_title" : "Middleware design for integrating relational database and NOSQL based on data dictionary",
+    "conference" : "2019 Open innovations",
+    "publish_date": "2019-12-01"
+  },
+  {
+    "paper_id" : "129",
+    "paper_title" : "A distinctive transformation approach of NoSQL's SQL conditions based on Espresso",
+    "conference" : "2017 IEEE 2nd International Conference on Cloud Computing and Big Data Analysis",
+    "publish_date": "2017-04-01"
+  },
+  {
+    "paper_id" : "130",
+    "paper_title" : "A literature review on NoSQL database for big data processing",
+    "conference" : "International Journal of Engineering and Technology",
+    "publish_date": "2018-06-01"
+  }
+
+]

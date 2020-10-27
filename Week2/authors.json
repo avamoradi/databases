@@ -1,0 +1,137 @@
+[
+ {
+  "author_no":20,
+  "author_name" : "Yasin N. Silva",
+  "university" : "Arizona State University",
+  "date_of_birth" : "1979-01-02", 
+  "h_index": 100,
+  "gender": "m",
+  "collaborator": 31
+ },
+ {
+  "author_no":21,
+  "author_name" : "Isadora Almeida",
+  "university" : "Arizona State University",
+  "date_of_birth" : "1980-02-03", 
+  "h_index": 101,
+  "gender": "f",
+  "collaborator":20
+ },
+ {
+  "author_no":22,
+  "author_name" : "Michell Queiroz",
+  "university" : "Arizona State University",
+  "date_of_birth" : "1981-03-04", 
+  "h_index": 102,
+  "gender": "m",
+  "collaborator":23
+ },
+ {
+  "author_no":23,
+  "author_name" : "Abdeltawab Hendawi",
+  "university" : "University of Rhode Island",
+  "date_of_birth" : "1982-04-05", 
+  "h_index": 102,
+  "gender": "m",
+  "collaborator":24
+ },
+ {
+  "author_no":24,
+  "author_name" : "Ankur Teredesai",
+  "university" : "University of Washington Seattle",
+  "date_of_birth" : "1975-05-06", 
+  "h_index": 103,
+  "gender": "m",
+  "collaborator":25
+ },
+ {
+  "author_no":25,
+  "author_name" : "Ridwan Marqas",
+  "university" : "Dohuk Private Technical Institute",
+  "date_of_birth" : "1976-04-06", 
+  "h_index": 103,
+  "gender": "m",
+  "collaborator":26
+ },
+ {
+  "author_no":26,
+  "author_name" : "Saman M. Almufti",
+  "university" : "Eastern Mediterranean University",
+  "date_of_birth" : "1975-12-01", 
+  "h_index": 104,
+  "gender": "m",
+  "collaborator":27
+ },
+ {
+  "author_no":27,
+  "author_name" : "Stefano Silvestri",
+  "university" : "Italian National Research Council",
+  "date_of_birth" : "1976-06-05", 
+  "h_index": 104,
+  "gender": "m",
+  "collaborator":30
+ },
+ {
+  "author_no":28,
+  "author_name" : "Francesco Gargiulo",
+  "university" : "Italian National Research Council",
+  "date_of_birth" : "1986-03-25", 
+  "h_index": 105,
+  "gender": "m",
+  "collaborator":29
+ },
+ {
+  "author_no":29,
+  "author_name" : "Angelo Esposito",
+  "university" : "Italian National Research Council",
+  "date_of_birth" : "1981-08-25", 
+  "h_index": 105,
+  "gender": "m",
+  "collaborator":28
+ },
+ {
+  "author_no":30,
+  "author_name" : "Mario Sicuranza",
+  "university" : "Italian National Research Council",
+  "date_of_birth" : "1982-11-13", 
+  "h_index": 106,
+  "gender": "m",
+  "collaborator":31
+ },
+ {
+  "author_no":31,
+  "author_name" : "Mário Rodrigues",
+  "university" : "Instituto Politécnico de Coimbra",
+  "date_of_birth" : "1983-04-26", 
+  "h_index": 107,
+  "gender": "m",
+  "collaborator":30
+ },
+ {
+  "author_no":32,
+  "author_name" : "Kodrat Iman Satoto",
+  "university" : "University of Diponegoro",
+  "date_of_birth" : "1980-12-17", 
+  "h_index": 106,
+  "gender": "m",
+  "collaborator":33
+ },
+ {
+  "author_no":33,
+  "author_name" : "Toni Taipalus",
+  "university" : "University of Jyväskylä",
+  "date_of_birth" : "1980-01-20", 
+  "h_index": 100,
+  "gender": "m",
+  "collaborator":32
+ },
+ {
+  "author_no":34,
+  "author_name" : "Ville Seppänen",
+  "university" : "University of Jyväskylä",
+  "date_of_birth" : "1979-02-16", 
+  "h_index": 107,
+  "gender": "f",
+  "collaborator":33
+ }
+]
