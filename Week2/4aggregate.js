@@ -10,11 +10,11 @@ const CONNECTION_CONFIG = {
 
 const PAPETS_NUMBERS_AUTHORS = `SELECT R.paper_title, count(author_name) from research_papers R inner join author_paper P on P.paper_id = R.paper_id inner join authors A on A.author_no = P.author_no group by (paper_title);`;
 
-const SUM_PAPAER_FEMALE = `select count(paper_title) as number_of_papers_by_females from research_papers r inner join author_paper p on p.paper_id = r.paper_id inner join authors a on a.author_no = p.author_no where gender = 'f'; `;
+const SUM_PAPAER_FEMALE = `select count(distinct r.paper_id) as number_of_papers_by_females from research_papers r left join author_paper p on p.paper_id = r.paper_id left join authors a on a.author_no = p.author_no where gender = 'f'; `;
 
 const AVERAGE_HINDEX_AUTHORS = `select university , avg(h_index) from authors group by (university)`;
 
-const SUM_PAPAER_AUTHORS_UNIVERSITY = `select university, count(paper_title) from research_papers r inner join author_paper p on r.paper_id = p.paper_id inner join authors a on a.author_no =  p.author_no group by (university);`;
+const SUM_PAPAER_AUTHORS_UNIVERSITY = `select university, count(distinct paper_title) from research_papers r inner join author_paper p on r.paper_id = p.paper_id inner join authors a on a.author_no =  p.author_no group by (university);`;
 
 const MIN_MAX_HINDEX_UNIVERSITY = `select university,min(h_index),max(h_index) from authors a left join author_paper p on a.author_no = p.author_no inner join research_papers r on r.paper_id = p.paper_id group by (university);`;
 
