@@ -12,7 +12,7 @@ const PRINT_AUTHORS_COLLABORATORS = `
   SELECT a1.author_name AS Author,
   a2.author_name AS Collaborator 
   FROM Authors as a1 LEFT JOIN Authors as a2
-  ON a1.author_no = a2.collaborator;`;
+  ON a1.collaborator = a2.author_no;`;
   
   const PRINT_AUTHORS_PAPERTITLE = `
   SELECT A.* ,R.paper_title from authors A left join author_paper P 
