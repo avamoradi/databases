@@ -25,14 +25,14 @@ async function main() {
           console.log(result2);
 
 
-        // //READ THE DOCUMENT
+        //READ THE DOCUMENT
         const query1 = {Name : "Shiraz"};
         const query2 = {CountryCode : "IRN"};
         const result3 = await client.db('world').collection('city').findOne(query1);
         const result4 = await client.db('world').collection('city').findOne(query2);
         console.log(result3, result4);
 
-        //DELET THE CITY
+        //DELETE THE CITY
         const query3 = {Id : 4080};
         const result4 = await client.db('world').collection('city').deleteOne(query3);
         console.log(result4);
