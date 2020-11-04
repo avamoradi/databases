@@ -14,12 +14,11 @@ const INSERT_TABLE_ACCOUNT = `
 const INSERT_TABLE_ACCOUNT_CHANGES = `
 INSERT into account_changes values(1, 'NL101', 5000, '2020-05-30', 'THIS ACCOUNT IS CHANGED');`;
 
+const connection = mysql.createConnection(CONNECTION_CONFIG);
+const execQuery = util.promisify(connection.query.bind(connection));
   
 async function seedDatabase() {
-  const connection = mysql.createConnection(CONNECTION_CONFIG);
-  const execQuery = util.promisify(connection.query.bind(connection));
-
-  try {
+    try {
     await execQuery(INSERT_TABLE_ACCOUNT);
     await execQuery(INSERT_TABLE_ACCOUNT_CHANGES);
        
