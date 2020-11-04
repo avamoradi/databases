@@ -1,8 +1,8 @@
 //1-
 // Rule 1 : Single valued attributes (each column should have atomic value, no multiple values)
-// but in this table we have several value for column food_code and food _description we should have different column for each code. and each description
+// but in this table we have several value for column food_code and food _description we should seprate this 2 column as a seprate table .
 
-// Member_id|Member_Name|Member_address|Dinner_id|Dinner_date|Venue _code|Venue_ description|Food_code1|Food_description1|Food_code2|Food_description2|Food_code3|Food_description 3
+// Member_id|Member_Name|Member_address|Dinner_id|Dinner_date|Venue _code|Venue_ description|Food_code|
 
 
 // 2-
@@ -24,15 +24,18 @@
 
 
 
-// Member_id|dinner_id|dinner_date|venue_code|venue_description|Food_code|Food_description 
-// 1      	D00001001  2020-03-15  B01        Grand Ball Room   C1	      cake
+// Member_id|dinner_id|dinner_date|venue_code|venue_description|Food_code|
+// 1      	D00001001  2020-03-15  B01        Grand Ball Room   C1	     
 
 
 
 
 // 4- 
 //we can see that they are column in the table which are dependent on another column, that they are not  primary key!
-// for example dinner_date is dependet to dinner_id and venue_description is dependent to venue code and food_descriptions are dependent on food_code to solve  this problem we are going to seprate this column as a seprate tables.
+// for example dinner_date is dependet to dinner_id and venue_description is dependent to venue code and food_description is dependent on food_code to solve  this problem
+//we are going to seprate this column as a seprate tables.
+
+//please Note that food_code, dinner_id, venue_code and memver_id are going to be primary key on seprated table and foreign key on the main table to make a connection with are the tables.
 
 
 // food_code|food_description 
@@ -44,8 +47,8 @@
 // venue_code |venue_description 
 // B01         Grand Ball Room
 
-// Member_id|dinner_id |venue_code |Food_code1|Food-code2	|Food-Code3
-// 1       	D00001001   B01         C1       	S1         	null
+// Member_id|dinner_id |venue_code |Food_code
+// 1       	D00001001   B01         C1       
 
 
 
