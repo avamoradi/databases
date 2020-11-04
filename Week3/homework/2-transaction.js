@@ -8,10 +8,10 @@ const CONNECTION_CONFIG = {
   database: 'userdb',
 };
 
-async function seedDatabase() {
-  const connection = mysql.createConnection(CONNECTION_CONFIG);
-  const execQuery = util.promisify(connection.query.bind(connection));
+const connection = mysql.createConnection(CONNECTION_CONFIG);
+const execQuery = util.promisify(connection.query.bind(connection));
 
+async function seedDatabase() {
   try {
     await execQuery("START TRANSACTION");
     await execQuery('UPDATE account SET balance = 5000 WHERE account_number = "NL101"');
