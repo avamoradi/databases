@@ -26,12 +26,12 @@ const TABLE_ACCOUNT = `
   FOREIGN KEY (account_number) REFERENCES account (account_number)
   );`;
 
-  
-async function seedDatabase() {
-  const connection = mysql.createConnection(CONNECTION_CONFIG);
-  const execQuery = util.promisify(connection.query.bind(connection));
+ 
+const connection = mysql.createConnection(CONNECTION_CONFIG);
+const execQuery = util.promisify(connection.query.bind(connection));
 
-  try {
+async function seedDatabase() {
+   try {
     await execQuery(TABLE_ACCOUNT);
     await execQuery(TABLE_ACCOUNT_CHANGES);
        
