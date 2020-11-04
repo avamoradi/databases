@@ -11,7 +11,7 @@
 // member_name,dinner_id,dinner_date,venue_description,food_descriprion
 // member_id,dinner_date,venue_code,food_code
 
-// kandidare key could be :
+// CANDIDATE key could be :
 // member_id, member_name
 // primary_key could be :
 // member_id,
